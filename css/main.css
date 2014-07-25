@@ -1,0 +1,59 @@
+body {
+	background-color:#000;
+}
+
+.year-div, .photo-div
+{
+	background-color:#ccc;
+	color:#222;
+	padding:50px;
+	text-align:center;
+	height: 350px;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.year-div h2
+{
+	
+	font-size: 5em;
+	width:156px;
+	margin:auto;
+	margin-top: 85px;
+	overflow:hidden;
+	height:77px;
+	position:relative;
+}
+
+.year-div h2 span {
+	display:block;
+	float:left;
+	position:relative;
+	width:39px;
+}
+
+.photo-div{
+	overflow:hidden;
+	position:relative;
+	
+}
+
+.images {
+	position:relative;
+	top:-250px;
+}
+
+.photo-div img
+{
+	margin:auto;
+	height:250px;
+}
+
+.tag{
+	margin-top:35px;
+}
